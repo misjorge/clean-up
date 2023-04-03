@@ -1,0 +1,31 @@
+{
+  "name": "cleanup-wdio8",
+  "version": "1.0.0",
+  "description": "cleanup project in wdio8",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "wdio",
+    "cucumber",
+    "cleanup"
+  ],  
+  "author": "Jorge Mager",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@wdio/allure-reporter": "8.6.8",
+    "@wdio/cli": "^8.6.9",
+    "@wdio/cucumber-framework": "^8.6.9",
+    "@wdio/local-runner": "^8.6.9",
+    "@wdio/spec-reporter": "^8.6.8",
+    "chai": "^4.3.7",
+    "chromedriver": "^111.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
